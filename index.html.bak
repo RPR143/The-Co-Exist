@@ -1,0 +1,225 @@
+<html>
+	<head>
+	<meta name="viewport" content="with=device-width, initial-scale=1.0">
+		<title>COEXIST</title>
+		<link rel="stylesheet" href="style_index.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+		<link rel="manifest" href="/site.webmanifest">
+	</head>
+	<body>
+		<section class="header">
+			<nav>
+				<a href="index.html"><img src="Images/logo.png"></a>
+				<div class="nav-links" id="navLinks">
+				<i class="fa fa-times" onclick="hideMenu()"></i>
+					<ul>
+						<li><a href="index.html"><b>HOME</b></a></li>
+						<li><a href="about.html"><b>ABOUT</b></a></li>
+						<li><a href="https://www.instagram.com/wildgeography/?hl=en" target="_blank"><b>SOCIAL MEDIA</b></a></li>
+						<li><a href="contact.html"><b>CONTACT US</b></a></li>
+						<li><a href="login.html"><b>LOGIN</b></a></li>
+					</ul>
+				</div>
+				<i class="fa fa-bars" onclick="showMenu()"></i>
+			</nav>
+			
+		<div class="text-box">
+			<h1>WELCOME TO COEXIST</h1>
+			<p>The whole ecosystem is dependent on each other. Animals are here for there
+			   own purposes. They are not here for us to eat, wear, <br> entertain us, or die
+			   in laboratories because of our poor lifestyle choices.</p>
+			<a href="login.html" class="hero-btn">Register Here</a>
+		</div>
+		</section>
+
+	<!------------------About------------------->
+		<section class="about">
+			<h1>ABOUT</h1>
+			<p>We are fortunate to share the land, water and sky with an impressive 
+			diversity of wildlife. To enable people and wildlife to share lanscapes.
+			We equip people with innovative science-based tools and stratagies to
+			reduce conflicts that may occur with wildlife. Our goal is to foster transformation
+			in both human attitudes and how wildlife and people interact, from conflict 
+			to coexistence.</p>
+			
+			<div class="row">
+				<div class="about-col">
+					<h3>Bags of Poison</h3>
+					<p>The key issue is the way plastic are used in our
+					   products. We also see much of plastic ending upper-alpha
+					   in the ocean it disrupt the marine ecosystem so
+					   plastic are a bags of poison for our enviroment.</p>
+				</div>
+				<div class="about-col">
+					<h3>Why Animals Extinct?</h3>
+					<p>The western black rhinoceros, the Tasmanian tiger, and the
+					   woolly mammoth are among the creatures whose populations at
+					   one point dwindled to zero, and it’s possible that species 
+					   extinction is happening a thousand times more quickly because of humans.</p>
+				</div>
+				<div class="about-col">
+					<h3>Why Plants Extinct?</h3>
+					<p>20% of the 300,000 plant species we know are also in danger of 
+					   extinction. Intensive farming and livestock practices, unfettered
+					   urban development and pollution, have altered threequarters of the 
+					   land surface, the UN report says, and are responsible for the 
+					   ever-lengthening list of threatened vegetation.</p>
+				</div>
+			</div>
+		</section>
+		
+<!-------What materials affects the COEXIST life-------->
+		
+		<section class="social">
+			<h1>What materials affect the COEXIST life</h1>
+			<p>Here you see only three examples which will affect the Co-Exist life<br>
+			like this there are so many examples.</p>
+			<div class="row">
+				<div class="social-col">
+					<img src="Images/bottle.jpg">
+					<div class="layer">
+						<h3>Sea Bottles</h3>
+					</div>
+				</div>
+				<div class="social-col">
+					<img src="Images/polythene.webp">
+					<div class="layer">
+						<h3>Polythene</h3>
+					</div>
+				</div>
+				<div class="social-col">
+					<img src="Images/chemical.jpg">
+					<div class="layer">
+						<h3>Chemicals</h3>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+<!-------Facilities-------->
+
+	<section class="facilites">
+		<h1>See Our Wonderful Co-Exist</h1>
+		<p>csdshghgfffhjvbnv fkhgkfjdhgjkfdhgkhdfhgdfj kfjhgdfgfdjkgh jkfhgjkdfhgk</p>
+		
+		<div class="row">
+			<div class="facilities-col">
+				<img src="Images/plants1.jpeg">
+				<h3>Worlds class library</h3>
+				<p>hhdwhduhwhduwuduhiwhhdwuihiudhhdwhuihiwuih</p>
+			</div>
+			
+			<div class="facilities-col">
+				<img src="Images/Animal.jpg">
+				<h3>Worlds class library</h3>
+				<p>hhdwhduhwhduwuduhiwhhdwuihiudhhdwhuihiwuih</p>
+			</div>
+			
+			<div class="facilities-col">
+				<img src="Images/XC.jpg">
+				<h3>Worlds class library</h3>
+				<p>hhdwhduhwhduwuduhiwhhdwuihiudhhdwhuihiwuih</p>
+			</div>
+		</div>
+	</section>
+	
+<!-------Testimonials-------->
+	<section class="testimonials">
+		<h1><b>What Our Users Says</b></h1>
+		<p>Here our some users shared their thoughts about us.</p>
+		
+		<div class="row">
+			<div class="testimonial-col">
+				<img src="Images/user.jpg"> 
+				<div>
+					<p>It is a great website and I came to know<br>
+					many things about our coexistence with wildlife.<br>
+					I saw how you all equip people with innovative <br>
+					science-based tools and stratagies to reduce conflicts<br>
+					may occur with wildlife. You all are doing great.</p>
+					<h3>Rishab Singh</h3>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star-o"></i> 
+				</div>
+			</div>	
+			<div class="testimonial-col">
+				<img src="Images/user2.jpg"> 
+				<div>
+					<p>I am very impressed by this website because it is doing <br>
+					that work which we all supposed to do. But unfortunately  <br>
+					we are not doing that. Yes, I am talking about spreading <br>
+					awarness about the importance of our wildlife(flora and fauna) <br>
+					in our socity and tell them we are here because of this <br>
+					beautiful gift given by God. Thank you team COEXIST <br>
+					</p>
+					<h3>Rohit Pandey</h3>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star-half-o"></i>
+				</div>
+			</div>		
+		</div>
+	</section>
+	 
+<!----------Call To Action-------->
+
+<section class="cta">
+	<h1>Contact us If you have any queries</h1>
+	<a href="contact.html" class="hero-btn">CONTACT US</a>
+</section>
+
+<!----------footer-------->
+
+<section class="footer">
+	<h3><b>Follow Us</b></h3>
+	<p>Team Co-Exist</p>
+	<div class="icons">
+		<i class="fa fa-facebook">
+			<a href="https://www.facebook.com/pages/category/Education/Wildlife-and-Natural-Geography-478998829530763/" target="_blank">
+				<img src="https://img.icons8.com/color/50/000000/facebook-new.png"/></a>
+		</i>
+		<i class="fa fa-twitter">
+			<a href="https://twitter.com/wildlifeww" target="_blank">
+				<img src="https://img.icons8.com/color/48/000000/twitter--v2.png" ></a>
+		</i>
+		<i class="fa fa-instagram">
+			<a href="https://www.instagram.com/wildgeography/?hl=en" target="_blank">
+				<img src="https://img.icons8.com/fluency/48/000000/instagram-new.png"/></a>
+		</i>
+		<i class="fa fa-linkedin">
+			<a href="https://www.linkedin.com/company/wildlife-and-countryside-link" target="_blank">
+				<img src="https://img.icons8.com/external-justicon-flat-justicon/64/000000/external-linkedin-social-media-justicon-flat-justicon.png"/>
+			</a>
+		</i>
+	</div>	
+</section>
+
+
+
+	<!------JavaScript for Toggle Menu------->
+		<script>
+			var navLinks= document.getElementById("navLinks");
+			
+			function showMenu(){
+				navLinks.style.right = "0";
+			}
+			
+			function hideMenu(){
+				navLinks.style.right = "-200";
+			}
+		</script>
+	</body>
+</html>

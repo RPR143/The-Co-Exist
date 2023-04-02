@@ -1,0 +1,96 @@
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Contact Us</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+	<link rel="stylesheet" href="style_contact.css">
+	<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+</head>
+<body>
+	<section class="contact">
+		
+		<section class="header">
+            <nav>
+                <a href="index.html"><img src="logo.png"></a>
+                <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="index.html"><b>HOME</b></a></li>
+					<li><a href="about.html"><b>ABOUT</b></a></li>
+					<li><a href="https://www.instagram.com/wildgeography/?hl=en" target="_blank"><b>SOCIAL MEDIA</b></a></li>
+					<li><a href="contact.html"><b>CONTACT US</b></a></li>
+					<li><a href="login.html"><b>LOGIN</b></a></li>
+				</ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+        </section>
+
+		<div class="content">
+			<h2><b><b>Contact Us</b></b></h2>
+			<p><b>We are here for you....</b></p>
+		</div>
+		<div class="container">
+			<div class="contactInfo">
+				<div class="box">
+					<div class="icon"></div>
+					<div class="text">
+						<h3>Address</h3>
+						<p>100/A-2/1 Civil Lines <br>Road 36 Stanley Road<br>Prayagraj</p>
+					</div>
+					</div>
+					<div class="box">
+						<div class="icon"></div>
+						<div class="text">
+							<h3>Phone</h3>
+							<p> 8764653778</p>
+						</div>
+					</div>
+					<div class="box">
+						<div class="icon"></div>
+						<div class="text">
+							<h3>    Email</h3>
+							<p>coexist00978@gmail.com</p>
+						</div>
+					</div>
+			</div>
+			<div class="contactform">
+				<form class="back">
+					<h2 class="heading"><b>Send Meassage</b></h2>
+					<div class="inputBox">
+						<input type="text" name="" required="required">
+						<span>Full Name</span>
+					</div>
+						<div class="inputBox">
+						<input type="text" name="" required="required">
+						<span>Email</span>
+					</div>
+						<div class="inputBox">
+						<textarea required="required"></textarea>
+						<span>Type your message...</span>
+					</div>
+						<div class="inputBox">
+						<input type="submit" name="" value="Send">
+					</div>
+				</form>
+			</div>
+		</div>
+	</section>
+
+		<!------JavaScript for Toggle Menu------->
+		<script>
+			var navLinks= document.getElementById("navLinks");
+			
+			function showMenu(){
+				navLinks.style.right = "0";
+			}
+			
+			function hideMenu(){
+				navLinks.style.right = "-200";
+			}
+		</script>
+</body>
+</html>

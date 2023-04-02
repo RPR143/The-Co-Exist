@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login and Registeratin</title>
+    <link rel="stylesheet" href="style_login.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+</head>
+<body>
+    <div class="hero">
+        <section class="header">
+            <nav>
+                <a href="index.html"><img src="logo.png"></a>
+                <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html"><b>HOME</b></a></li>
+                    <li><a href="about.html"><b>ABOUT</b></a></li>
+                    <li><a href="https://www.instagram.com/wildgeography/?hl=en" target="_blank"><b>SOCIAL MEDIA</b></a></li>
+                    <li><a href="contact.html"><b>CONTACT US</b></a></li>
+                    <li><a href="login.html"><b>LOGIN</b></a></li>
+                </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+        </section>
+        <div class="form-box">
+            <div class="button-box">
+                <div id="btn"></div>
+                <button type="button" class= "toggle-btn" onclick="login()" ><b>Log In</b></button>
+                <button type="button" class ="toggle-btn" onclick="register()"><b>Register</b></button>
+            </div>
+            <div class="social-icons">
+                <a href="https://www.google.co.in/"><img src="https://img.icons8.com/color/48/000000/google-logo.png"/></a>
+                <a href="https://www.facebook.com/"><img src="https://img.icons8.com/color/50/000000/facebook-new.png"/></a>
+                <a href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZW4ifQ%3D%3D%22%7D"><img src="https://img.icons8.com/color/48/000000/twitter--v2.png"/></a>
+            </div>
+            <form id="login" class="input-group" action="validation.php" method="post"> 
+                <input type="text" class="input-field" placeholder="User Id" name="user_id" required >
+                <input type="password" class="input-field" placeholder="Enter Password" name="password" required >
+                <input type="checkbox" class="check-box"> <span><b>I am not a robot</b></span> 
+                <button type="submit" class="submit-btn"><b>Log In</b></button><br>
+            </form>
+            <form id="register" class="input-group" action="registration.php" method="post">
+                <input type="text" class="input-field" placeholder="First Name" name="fname" required >
+                <input type="text" class="input-field" placeholder="Last Name"  name="lname" required >
+                <input type="email" class="input-field" placeholder="Email-Id"  name="email" required>
+                <input type="password" class="input-field" placeholder="Enter Password" name="pass" required >
+                <input type="checkbox" class="check-box"> <span><b>I agree to the terms and conditions</b></span>
+                <button type="submit" class="submit-btn"><b>Register</b></button>
+            </form>
+        </div>
+    </div>
+    <script>
+        var x = document.getElementById("login");
+        var y = document.getElementById("register");
+        var z = document.getElementById("btn");
+
+        function register(){
+            x.style.left="-400px";
+            y.style.left="50px";
+            z.style.left="110px";
+        }
+
+        function login(){
+            x.style.left="50px";
+            y.style.left="450px";
+            z.style.left="0px";
+        }
+
+        var navLinks= document.getElementById("navLinks");
+			
+			function showMenu(){
+				navLinks.style.right = "0";
+			}
+			
+			function hideMenu(){
+				navLinks.style.right = "-200";
+			}
+    </script>
+</body>
+</html> 
